@@ -26,7 +26,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 CONQUER_ROOT="${MY_DIR}"/../../..
 
-HELPER="${CONQUER_ROOT}/vendor/conquer/build/tools/extract_utils.sh"
+HELPER="${CONQUER_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
