@@ -1,1 +1,2 @@
 allow kernel self:qipcrtr_socket { create };
+allow kernel system_data_file:file { read };
