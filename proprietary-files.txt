@@ -100,8 +100,9 @@ vendor/lib/libbluetooth_audio_session_qti.so|d0da7c75c6d76ec151864c84f986cdcc932
 # Bluetooth - LA.QSSI.11.0.r1-08800-qssi.0
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 system_ext/bin/dun-server
+system_ext/lib/com.qualcomm.qti.ant@1.0.so
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Camera
 vendor/etc/camera/beauty_ui9_intelligent_params.config
@@ -459,11 +460,13 @@ vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # FM - from LA.UM.9.1.r1-09200-SMxxx0.0
-system_ext/lib64/fm_helium.so|2e38624a232b4e27e3c58771c5ea5904fdd73719
-system_ext/lib64/libfm-hci.so|8cfab4f83547e53f80c2612199c30aa479be70aa
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so|14fa97954c877d2879c382c11bdf9d5aa65ab86a
+system_ext/lib/fm_helium.so
+system_ext/lib/libfm-hci.so
+system_ext/lib/vendor.qti.hardware.fm@1.0.so
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5c62da15803a345e67037511a7c059336331312f
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|a20fbe7163d991564996fe862f25e31285ed1a9a
 
 # GPU Firmware
 vendor/firmware/a612_rgmu.bin
