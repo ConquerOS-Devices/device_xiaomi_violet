@@ -1,0 +1,26 @@
+[
+	{
+		"repository": "vendor_xiaomi_violet ",
+		"target_path": "vendor/xiaomi/violet",
+		"branch": "R",
+        "remote": "github"
+	},
+	{
+		"repository": "rokusenpaislab/android_kernel_vertigo",
+		"target_path": "kernel/xiaomi/violet",
+		"branch": "caf",
+		"remote": "github"
+    },
+    {
+		"repository": "sen-pai06/device-violet-firmware",
+		"target_path": "device/xiaomi/violet-firmware",
+		"branch": "master",
+		"remote": "gitlab"
+	},
+    {
+        "repository": "sackclothxashes/vendor_xiaomi_dolby",
+        "target_path": "vendor/xiaomi/dolby",
+        "branch": "v3",
+        "remote": "github"
+    }
+]
