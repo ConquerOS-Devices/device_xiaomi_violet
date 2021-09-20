@@ -984,6 +984,9 @@ vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-studio.conf
 vendor/etc/thermal-engine-tgame.conf
+vendor/etc/thermal-engine-high.conf
+vendor/etc/thermal-engine-pubgmhd.conf 
+vendor/etc/thermal-engine-sgame.conf 
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalclient.so
 
